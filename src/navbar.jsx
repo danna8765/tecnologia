@@ -1,9 +1,5 @@
 import { useState } from "react";
-<<<<<<< HEAD
-import logo from "./assets/tecnologia.webp";
-=======
-import logo from "./assets/logo.png";
->>>>>>> 0b06ec089975fa16d6897c88b77c005d7bcfbb8d
+import logo from "./assets/tecnologia.webp"; // o "./assets/logo.png", escoge la que quieras usar
 import "./index.css";
 
 export default function Navbar() {
@@ -16,10 +12,7 @@ export default function Navbar() {
         <span className="logo-text">T A</span>
       </div>
 
-<<<<<<< HEAD
-=======
       {/* Menú escritorio reorganizado */}
->>>>>>> 0b06ec089975fa16d6897c88b77c005d7bcfbb8d
       <div className="menu">
         <div className="menu-group">
           <a href="#inicio">🏠 Inicio</a>

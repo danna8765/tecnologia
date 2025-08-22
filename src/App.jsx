@@ -43,16 +43,12 @@ export default function App() {
         <h2>Contáctanos</h2>
         <p>📍 Dirección: Av. Tecnología #456, Ciudad Digital</p>
         <p>📞 Teléfono: +57 310 456 7890</p>
-        <p>✉️ Email: soporte@tecnoroute.com</p>
+        <p>✉️ Email: soporte@TA.com</p>
       </section>
 
       {/* Footer */}
       <footer className="footer">
-<<<<<<< HEAD
-        © 2025 TECNOROUTE - Tu tienda de tecnología confiable
-=======
-        © 2025 TECNOROUTE
->>>>>>> 0b06ec089975fa16d6897c88b77c005d7bcfbb8d
+        © 2025 TA
       </footer>
     </div>
   );
