@@ -48,7 +48,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="footer">
-        © 2025 TECNOROUTE - Transporte y Tienda Online
+        © 2025 TECNOROUTE
       </footer>
     </div>
   );
