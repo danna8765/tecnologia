@@ -48,7 +48,11 @@ export default function App() {
 
       {/* Footer */}
       <footer className="footer">
+<<<<<<< HEAD
         © 2025 TECNOROUTE - Tu tienda de tecnología confiable
+=======
+        © 2025 TECNOROUTE
+>>>>>>> 0b06ec089975fa16d6897c88b77c005d7bcfbb8d
       </footer>
     </div>
   );
