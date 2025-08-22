@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "./assets/logo.png"; // 👈 tu logo aquí
+import logo from "./assets/tecnologia.webp";
 import "./index.css";
 
 export default function Navbar() {
@@ -7,13 +7,11 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      {/* Logo + Nombre */}
       <div className="logo-container">
-        <img src={logo} alt="TECNOROUTE Logo" className="logo" />
-        <span className="logo-text">TECNOROUTE</span>
+        <img src={logo} alt="TECNOROUTE tecnologia" className="logo" />
+        <span className="logo-text">T A</span>
       </div>
 
-      {/* Menú escritorio */}
       <div className="menu">
         <a href="#inicio">Inicio</a>
         <a href="#servicios">Servicios</a>

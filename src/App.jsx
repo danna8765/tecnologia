@@ -1,5 +1,5 @@
-import Navbar from "./navbar";
 import "./index.css";
+import Navbar from "./navbar";
 
 export default function App() {
   return (
@@ -8,47 +8,47 @@ export default function App() {
 
       {/* Inicio */}
       <section id="inicio" className="section inicio">
-        <h1>Bienvenido a <span>TECNOROUTE</span></h1>
-        <p>Tu solución en transporte y tienda online.</p>
+        <h1>Bienvenido a <span>T A</span></h1>
+        <p>La mejor tienda online de tecnología avanzada.</p>
       </section>
 
       {/* Servicios */}
       <section id="servicios" className="section servicios">
-        <h2>Servicios</h2>
-        <p>Envíos rápidos y seguros a nivel nacional + tienda virtual moderna.</p>
+        <h2>¿Por qué elegirnos?</h2>
+        <p>Ofrecemos productos originales, envíos rápidos y atención personalizada.</p>
       </section>
 
       {/* Catálogo */}
       <section id="catalogo" className="section catalogo">
-        <h2>Catálogo</h2>
-        <p>Explora nuestra variedad de productos más recientes.</p>
+        <h2>Catálogo Tecnológico</h2>
+        <p>Descubre nuestras últimas novedades en tecnología.</p>
         <div className="productos">
-          <div className="producto">🚚 Transporte Premium</div>
-          <div className="producto">📦 Paquetería Express</div>
-          <div className="producto">🛒 Electrónica</div>
-          <div className="producto">👕 Ropa y Moda</div>
-          <div className="producto">🏠 Hogar</div>
-          <div className="producto">💻 Tecnología</div>
+          <div className="producto">💻 Laptops y PCs</div>
+          <div className="producto">📱 Smartphones</div>
+          <div className="producto">🎧 Audífonos y Audio</div>
+          <div className="producto">🖥️ Monitores</div>
+          <div className="producto">⌚ Smartwatches</div>
+          <div className="producto">🎮 Consolas y Gaming</div>
         </div>
       </section>
 
       {/* Clientes */}
       <section id="clientes" className="section clientes">
-        <h2>Nuestros Clientes</h2>
-        <p>Más de 1000 clientes confían en <span>TECNOROUTE</span>.</p>
+        <h2>Opiniones de nuestros clientes</h2>
+        <p>Más de 5,000 clientes satisfechos con nuestra tienda tecnológica.</p>
       </section>
 
       {/* Contacto */}
       <section id="contacto" className="section contacto">
         <h2>Contáctanos</h2>
-        <p>📍 Dirección: Calle Principal #123</p>
-        <p>📞 Teléfono: +57 300 123 4567</p>
-        <p>✉️ Email: contacto@tecnoroute.com</p>
+        <p>📍 Dirección: Av. Tecnología #456, Ciudad Digital</p>
+        <p>📞 Teléfono: +57 310 456 7890</p>
+        <p>✉️ Email: soporte@tecnoroute.com</p>
       </section>
 
       {/* Footer */}
       <footer className="footer">
-        © 2025 TECNOROUTE - Transporte y Tienda Online
+        © 2025 TECNOROUTE - Tu tienda de tecnología confiable
       </footer>
     </div>
   );
